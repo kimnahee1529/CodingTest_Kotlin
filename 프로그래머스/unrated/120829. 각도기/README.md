@@ -2,6 +2,29 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120829?language=kotlin) 
 
+## 🫡배운점 / if문 대신 when!
+
+```kotlin
+fun solution(angle: Int): Int{
+var answer: Int = 0
+when(angle) {
+    in 0 .. 89 -> answer = 1 // 0~89 이내일 때(0,89 포함)
+    90 -> answer = 2         // 90일 때
+    in 91 .. 179 -> answer = 3
+    180 -> answer = 4
+}
+return answer
+}
+```
+```kotlin
+fun solution(angle: Int) = when {
+        (angle in 0 .. 89) -> 1
+        (angle  == 90) -> 2
+        (angle in 91 .. 179) -> 3
+        else -> 4
+    }
+```
+
 ### 성능 요약
 
 메모리: 62.1 MB, 시간: 0.01 ms
