@@ -2,7 +2,7 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120829?language=kotlin) 
 
-## 🫡배운점 / if문 대신 when!
+## 🫡배운 것 | if문 대신 when!
 
 ```kotlin
 fun solution(angle: Int): Int{
