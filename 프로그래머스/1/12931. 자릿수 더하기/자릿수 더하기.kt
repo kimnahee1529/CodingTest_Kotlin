@@ -1,20 +1,13 @@
 class Solution {
     fun solution(n: Int): Int {
-        var N = n
-        var answer = 0
-
-        for(i: Int in 1..n.toString().length){
-            answer += N%10 
-            N = N/10
-        }
-        return answer
+        return n.toString().map {it.toString().toInt()}.sum()
     }
 }
+
 
 //문자열로 만들기
 //하나하나 쪼개서 배열로 만들기
 //.sum함수로 다 더하기
-
 
 
 // val strSize = (n.toString()).length

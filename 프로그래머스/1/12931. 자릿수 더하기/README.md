@@ -2,15 +2,9 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12931?language=kotlin) 
 
-## 🫡배운 것 | map 함수
-map 함수는 각 원소를 원하는 형태로 변환하는 기능을 하며, 변환한 결과를 모아서 새 컬렉션을 만든다.
-```kotlin
-val sList = listOf("3","2","1")         //문자열 리스트
-val sMapList = sList.map { it.toInt() } //정수형 리스트
-```
 ### 성능 요약
 
-메모리: 59.8 MB, 시간: 0.03 ms
+메모리: 60.6 MB, 시간: 8.63 ms
 
 ### 구분
 
@@ -22,7 +16,7 @@ val sMapList = sList.map { it.toInt() } //정수형 리스트
 
 ### 제출 일자
 
-2023년 11월 4일 10:18:37
+2023년 11월 4일 11:42:35
 
 ### 문제 설명
 
