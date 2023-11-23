@@ -2,6 +2,9 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12931?language=kotlin) 
 
+## 🫡배운 것 | map 함수
+map 함수는 각 원소를 원하는 형태로 변환하는 기능을 하며, 변환한 결과를 모아서 새 컬렉션을 만든다.
+
 ### 성능 요약
 
 메모리: 59.8 MB, 시간: 0.03 ms
