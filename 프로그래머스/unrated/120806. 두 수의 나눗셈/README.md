@@ -2,7 +2,7 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120806?language=kotlin) 
 
-## 🫡배운점 소수점 아래를 없앨 때 ```/```를 쓰자!
+## 🫡배운 것 | 소수점 아래를 없앨 때 ```/```를 쓰자!
 ```(d_num1 / d_num2 * 1000).toInt()```처럼 ```toInt()```를 쓰면 된다고 생각했는데   
 ```fun solution(num1: Int, num2: Int) = num1 * 1000 / num2```
 처럼 ```/``` 연산자를 마지막에 씀으로써 소수점 아래를 없앨 수 있다는 것을 깨달았다!
