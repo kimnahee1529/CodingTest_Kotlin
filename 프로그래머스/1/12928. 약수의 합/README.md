@@ -10,7 +10,9 @@
 * 제곱근 : ```sqrt(Double or Float)```  
   import 해줘야 함!
 * 리스트에서 중복요소 제거 : ```answerList.distinct()```
-* 수정가능한 리스트 초기화 : ```val answerList = mutableListOf<Int>()```
+* 수정가능한 리스트 초기화 : ```val answerList = mutableListOf<Int>()```  
+  코틀린의 List는 기본적으로 immutable 이다.  
+  하지만, mutable로 선언할 경우 값을 변경할 수 있다.
 
 ### ex) N이 12일 경우
 
