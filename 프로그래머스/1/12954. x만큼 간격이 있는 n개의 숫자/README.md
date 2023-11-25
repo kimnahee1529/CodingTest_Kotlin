@@ -2,6 +2,9 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12954?language=kotlin#) 
 
+## 🫡배운 것 | 자료형 챙기자!
+반환값이 LongArray이기 때문에 x.toLong()을 사용
+
 ### 성능 요약
 
 메모리: 62.3 MB, 시간: 0.03 ms
