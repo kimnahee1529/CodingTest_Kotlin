@@ -8,7 +8,7 @@
 
 #### 제곱근까지만 나눠도 되는 이유 :
 * 제곱근 : ```sqrt(Double or Float)```  
-  import 해줘야 함!
+  import kotlin.math.sqrt 해줘야 함!
 * 수정가능한 리스트 초기화 : ```val answerList = mutableListOf<Int>()```  
   코틀린의 List는 기본적으로 immutable 이다.  
   하지만, mutable로 선언할 경우 값을 변경할 수 있다.
