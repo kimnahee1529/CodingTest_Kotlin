@@ -1,14 +1,13 @@
 class Solution {
     fun solution(a: Int, b: Int): Long {
         var answer: Long = 0
-        if(b>a){
-            for (i in a..b)
+        
+        var min = Integer.min(a,b)
+        val max = Integer.max(a,b)
+        
+        for (i in min..max)
                 answer += i
-        }else{
-            for (i in b..a)
-                answer += i
-        }
-        println(answer)
+        
         return answer
     }
 }
