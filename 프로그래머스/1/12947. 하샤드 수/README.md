@@ -1,36 +1,10 @@
-# ⭐[level 1] 하샤드 수 - 12947 
+# [level 1] 하샤드 수 - 12947 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12947?language=kotlin) 
 
-## 🫡배운 것 | 간결한 것도 중요하지만 남들이 알아보기 쉬운 코드를 짜는 것이 더 중요하다!
-입력받은 x가 각 자리 수를 합한 값으로 나눠지는지를 판단하는 코드를 짜보자.  
-```
-x로 12가 들어오왔을 때 12가 3(1+2)으로 나눠지면 true, 아니면 false를 반환하자
-
-1.문자열로 바꾼다
-2.각 자리수를 더한다
-3.나눠지는지 확인한다
-```
-아래의 코드는 간결하긴 하지만 알아보기 쉽지 않다. (튜터님이 말씀하신 변태같은 코드..🫠) 
-```kotlin
-x % x.toString().map{it.toString().toInt()}.sum() == 0
-```  
-알아보기 쉽게 작성해보자.
-```kotlin
-val xtoString = x.toString()
-val sum = xtoString.map{
-                it.toString().toInt()
-        }.sum()
-        
-if(x % sum == 0)
-    return true
-else
-    return false
-```
-
 ### 성능 요약
 
-메모리: 62.1 MB, 시간: 5.75 ms
+메모리: 61.4 MB, 시간: 7.00 ms
 
 ### 구분
 
@@ -42,7 +16,7 @@ else
 
 ### 제출 일자
 
-2023년 11월 4일 23:29:53
+2023년 12월 5일 0:42:2
 
 ### 문제 설명
 
