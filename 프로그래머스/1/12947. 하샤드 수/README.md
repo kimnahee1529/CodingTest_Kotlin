@@ -1,6 +1,30 @@
-# [level 1] 하샤드 수 - 12947 
+# ⭐[level 1] 하샤드 수 - 12947 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12947?language=kotlin) 
+
+## 🫡배운 것 | 간결하더라도 남들이 알아보기 쉬운 코드를 짜자!
+입력받은 n이 각 자리 수를 합한 값으로 나눠지는지를 판단하는 코드를 짜보자.  
+```
+문자열로 바꾼다
+각 자리수를 더한다
+나눠지는지 확인한다
+```
+아래의 코드는 간결하긴 하지만 알아보기 쉽지 않다. (튜터님이 말씀하신 변태같은 코드..🫠) 
+```kotlin
+x % x.toString().map{it.toString().toInt()}.sum() == 0
+```  
+알아보기 쉽게 작성해보자.
+```kotlin
+val xtoString = x.toString()
+val sum = xtoString.map{
+                it.toString().toInt()
+        }.sum()
+        
+if(x % sum == 0)
+    return true
+else
+    return false
+```
 
 ### 성능 요약
 
