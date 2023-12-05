@@ -10,3 +10,8 @@ class Solution {
         return answer
     }
 }
+
+// class Solution {
+//     fun solution(numbers: IntArray): Int 
+//     = (1..9).filter{it !in numbers}.sum()
+// }
