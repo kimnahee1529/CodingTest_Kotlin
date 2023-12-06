@@ -2,6 +2,16 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12935) 
 
+## 🫡배운 것 | minOrNull, maxOrNull
+min(), max() 함수는 deprecated 됐기 때문에 아래의 함수 2개를 사용하는 것이 좋다  
+
+만약 리스트가 비었을 때 min,max 함수를 호출한다면 에러가 난다.  
+하지만 minOrNull, maxOrNull 함수를 호출한다면 null을 반환한다.
+
+minOrNull : 배열에서 최소값 찾기
+maxOrNull : 배열에서 최댓값 찾기
+
+  
 ### 성능 요약
 
 메모리: 63.9 MB, 시간: 38.37 ms
