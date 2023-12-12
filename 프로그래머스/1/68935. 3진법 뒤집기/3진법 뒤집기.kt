@@ -7,3 +7,4 @@ class Solution {
         return answer
     }
 }
+//n.toString(3).reversed().toInt(3)
