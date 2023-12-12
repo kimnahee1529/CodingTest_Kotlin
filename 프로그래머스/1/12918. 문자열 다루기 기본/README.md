@@ -2,10 +2,9 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12918?language=kotlin) 
 
-### 🫡배운 것 | toIntOrNull : 숫자로만 구성되어 있는지 확인
 ### 성능 요약
 
-메모리: 61.2 MB, 시간: 0.02 ms
+메모리: 63.5 MB, 시간: 7.19 ms
 
 ### 구분
 
@@ -17,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 12월 2일 10:14:18
+2023년 12월 2일 10:32:43
 
 ### 문제 설명
 

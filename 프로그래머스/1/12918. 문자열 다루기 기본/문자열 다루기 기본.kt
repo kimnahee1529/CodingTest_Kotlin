@@ -1,12 +1,12 @@
 class Solution {
     fun solution(s: String): Boolean {
-        var answer = true
-        if((s.length == 4 || s.length == 6))
-            try{
-                s.toInt()
-                return true
-            }catch(e:NumberFormatException){
-            }
+        if((s.length == 4 || s.length == 6) && s.toIntOrNull() != null)
+            return true            
         return false
     }
 }
+//        try{
+//            s.toInt()
+//            return true
+//        }catch(e:NumberFormatException){
+//        }
