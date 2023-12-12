@@ -2,6 +2,17 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12917?language=kotlin) 
 
+### 🫡배운 것 | 문자열을 리스트로 바꿀 때 그냥 map을 쓰자
+```
+val s = "Zbcdefg"
+println(s)
+println((s.map { it.toString() }))
+```
+```
+Zbcdefg
+[Z, b, c, d, e, f, g]
+```
+
 ### 성능 요약
 
 메모리: 64.1 MB, 시간: 21.98 ms
