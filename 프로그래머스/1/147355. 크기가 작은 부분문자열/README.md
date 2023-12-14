@@ -2,6 +2,21 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/147355) 
 
+### 🫡배운 것 | int가 표현할 수 있는 값의 범위 때문에 런타임 에러가 날 수 있다!
+
+❌런타임 에러가 나는 코드
+```kotlin
+if(num.toInt() <= p.toInt()){
+    answer++            
+}
+```
+⭕정상 동작하는 코드
+```kotlin
+ if(num.toLong() <= p.toLong()){
+    answer++            
+}
+```
+
 ### 성능 요약
 
 메모리: 63.3 MB, 시간: 9.60 ms
