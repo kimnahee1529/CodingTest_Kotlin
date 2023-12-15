@@ -2,6 +2,15 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12926) 
 
+### 🫡배운 것 | 알파벳 리스트 생성할 때
+```kotlin
+val uppercase = ('A'..'Z').toList()
+val lowercase = ('a'..'z').toList()
+```
+```
+[A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z]
+[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+```
 ### 성능 요약
 
 메모리: 62.6 MB, 시간: 35.47 ms
