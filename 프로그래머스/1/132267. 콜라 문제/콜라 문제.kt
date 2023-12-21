@@ -9,7 +9,6 @@ class Solution {
     
             answer += newBottle
         }
-        println(answer)
     
         return answer
     }
