@@ -2,6 +2,26 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/77484) 
 
+### 🫡배운 것 | count
+```kotlin
+fun count(){
+    val stringList = listOf("1","2","2","3","4","5")
+    val intList = listOf(1,2,2,3,4,5)
+
+    val num1 = stringList.count{
+        it=="2"
+    }
+    val num2 = intList.count{
+        it==2
+    }
+
+    println("num1: $num1, num2: $num2")
+}
+```
+```
+num1: 2, num2: 2
+```
+
 ### 성능 요약
 
 메모리: 62.8 MB, 시간: 23.16 ms
