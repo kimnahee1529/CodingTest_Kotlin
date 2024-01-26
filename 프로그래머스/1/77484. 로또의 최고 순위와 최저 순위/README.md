@@ -3,6 +3,8 @@
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/77484) 
 
 ### 🫡배운 것 | count
+count 함수는 컬렉션의 요소들 중에서 특정 조건을 만족하는 요소의 개수를 세는 함수입니다.   
+이 함수는 단순히 Int 타입 뿐만 아니라, 컬렉션에 포함된 모든 타입의 요소들에 대해서 사용할 수 있습니다. 
 ```kotlin
 fun count(){
     val stringList = listOf("1","2","2","3","4","5")
