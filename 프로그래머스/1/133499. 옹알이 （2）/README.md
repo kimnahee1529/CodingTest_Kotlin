@@ -2,6 +2,38 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/133499) 
 
+## 🫡배운 것 | 정규 표현식
+```kotlin
+fun solution() {
+    val babbling = arrayOf("aya", "uuu", "yeye", "woo", "yemawoo", "ayaayaa")
+    val regex = "aya|ye|woo|ma".toRegex()
+    val matchesList = mutableListOf<String>()
+    val replaceList = mutableListOf<String>()
+
+    //matches
+    babbling.forEachIndexed { index, babble ->
+        if(babble.matches(regex))
+            matchesList.add(babble)
+    }
+    
+    //replace
+    babbling.forEachIndexed { index, babble -> 
+        val res = babble.replace(regex,"")
+        if(res.isEmpty())
+            replaceList.add(index.toString())
+    }
+    println("matchesList: $matchesList")
+    println("replaceList: $replaceList")
+
+}
+
+```
+
+```
+matchesList: [aya, woo]
+replaceList: [0, 2, 3, 4]
+```
+
 ### 성능 요약
 
 메모리: 61 MB, 시간: 2.02 ms
