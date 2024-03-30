@@ -5,6 +5,7 @@ class Solution {
         (angle in 91 .. 179) -> 3
         else -> 4
     }
+    
     // fun solution(angle: Int): Int{
     //     var answer: Int = 0
     //     when(angle) {
